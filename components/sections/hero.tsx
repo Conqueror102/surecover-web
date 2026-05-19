@@ -41,13 +41,13 @@ export function Hero() {
             {/* CTAs */}
             <div className="flex gap-3 flex-wrap mb-11">
               <Link 
-                href="#register-patient" 
+                href="/register" 
                 className="inline-flex items-center gap-2 px-6 py-[13px] rounded-full text-[0.88rem] font-semibold bg-[#0D9B88] text-white shadow-[0_4px_18px_rgba(13,155,136,0.28)] hover:bg-[#11C4AD] hover:-translate-y-[2px] transition-all duration-200"
               >
                 Start as a Patient →
               </Link>
               <Link 
-                href="#for-doctors" 
+                href="/for-doctors" 
                 className="inline-flex items-center gap-2 px-6 py-[13px] rounded-full text-[0.88rem] font-semibold bg-transparent text-[rgba(10,20,40,0.55)] border-[1.5px] border-[rgba(10,20,40,0.12)] hover:border-[#0D9B88] hover:text-[#11C4AD] transition-all duration-200"
               >
                 Join as a Doctor
