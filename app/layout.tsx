@@ -1,6 +1,9 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
+import Modal from "@/components/Modal/Modal";
 import { generateSEO, generateOrganizationSchema } from "@/lib/seo";
 
 export const metadata: Metadata = generateSEO();
@@ -27,7 +30,10 @@ export default function RootLayout({
         />
       </head>
       <body className="overflow-x-hidden bg-white font-sans text-[rgba(10,20,40,0.85)] antialiased">
+        <Navbar />
         {children}
+        <Footer />
+        <Modal />
       </body>
     </html>
   );
