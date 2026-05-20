@@ -31,6 +31,7 @@ export function generateSEO({
   const pageTitle = title ? `${title} | ${siteConfig.name}` : siteConfig.name
   
   return {
+    metadataBase: new URL(siteConfig.url),
     title: pageTitle,
     description,
     keywords: [

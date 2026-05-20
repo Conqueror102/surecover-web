@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 :root {
+  --font-dm-sans: 'DM Sans';
+  --font-playfair: 'Playfair Display';
+  --font-jetbrains: 'JetBrains Mono';
+
   /* Brand Colors - SureCova */
   --teal: 13 155 136;
   --teal-hi: 17 196 173;
